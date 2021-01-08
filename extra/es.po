@@ -1,0 +1,75 @@
+# Spanish translation for komorebi
+# Copyright (C) 2020 Komorebi Team
+# This file is distributed under the same license as the komorebi package.
+# Amaro Martínez <xoas@airmail.cc>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: komorebi\n"
+"Report-Msgid-Bugs-To: https://github.com/KomorebiTeam/komorebi/issues\n"
+"POT-Creation-Date: 2020-12-04 00:33-0500\n"
+"PO-Revision-Date: 2020-09-16 01:26-0500\n"
+"Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
+"Language-Team: Español; Castellano <>\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Gtranslator 3.36.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: data/desktop/komorebi.appdata.xml.in.in:7
+#: data/desktop/komorebi.desktop.in.in:4
+msgid "@PROJECT_TITLE@"
+msgstr ""
+
+#: data/desktop/komorebi.appdata.xml.in.in:8
+#: data/desktop/komorebi.desktop.in.in:6
+msgid "A different desktop"
+msgstr "Un escritorio diferente"
+
+#. Translators: These are the application description paragraphs in the AppData file.
+#: data/desktop/komorebi.appdata.xml.in.in:11
+msgid ""
+"Komorebi is an awesome wallpaper manager with desktop improvements for any "
+"Linux distribution."
+msgstr ""
+"Komorebi es un impresionante administrador de fondos de pantalla con mejoras "
+"de escritorio para cualquier distribución de Linux."
+
+#: data/desktop/komorebi.appdata.xml.in.in:14
+msgid ""
+"It is open source, written in Vala, originally developed by Abraham Masri."
+msgstr ""
+"Es de código abierto, escrito en Vala, originalmente desarrollado por "
+"Abraham Masri."
+
+#: data/desktop/komorebi.appdata.xml.in.in:17
+msgid ""
+"This aims to continue the original work by offering new features and "
+"improvements."
+msgstr ""
+"Esto tiene como objetivo continuar el trabajo original ofreciendo nuevas "
+"características y mejoras."
+
+#: data/desktop/komorebi.appdata.xml.in.in:29
+msgid "Main Logo"
+msgstr "Logo principal"
+
+#: data/desktop/komorebi.appdata.xml.in.in:33
+msgid "New Logo"
+msgstr "Nuevo logo"
+
+#: data/desktop/komorebi.desktop.in.in:5
+msgid "Wallpaper and Desktop Manager"
+msgstr "Gestor de escritorio y fondos de pantalla"
+
+#. Translators: Search terms to find this application. Do NOT translate or localize the semicolons! The list MUST also end with a semicolon!
+#: data/desktop/komorebi.desktop.in.in:8
+msgid "wallpaper;settings;preferences;"
+msgstr "fondo de pantalla;configuración;preferencias;"
+
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
+#: data/desktop/komorebi.desktop.in.in:11
+msgid "@PROJECT_NAME@"
+msgstr ""

@@ -1,0 +1,267 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Komorebi Team
+# This file is distributed under the same license as the komorebi package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: komorebi\n"
+"Report-Msgid-Bugs-To: https://github.com/KomorebiTeam/komorebi/issues\n"
+"POT-Creation-Date: 2020-12-11 01:39-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/ui/aboutdialog.vala:44
+msgid "A different desktop"
+msgstr ""
+
+#: src/ui/aboutdialog.vala:46
+msgid "Visit Komorebi on GitHub"
+msgstr ""
+
+#: src/ui/aboutdialog.vala:51
+msgid "translator-credits"
+msgstr ""
+
+#: src/ui/backgroundwindow.vala:94
+msgid "Desktop"
+msgstr ""
+
+#: src/ui/bubblemenu.vala:79
+msgid "New Folder"
+msgstr ""
+
+#: src/ui/bubblemenu.vala:80
+msgid "Refresh Desktop Background"
+msgstr ""
+
+#: src/ui/bubblemenu.vala:81
+msgid "Paste"
+msgstr ""
+
+#: src/ui/bubblemenu.vala:82
+msgid "Change Desktop Background..."
+msgstr ""
+
+#: src/ui/bubblemenu.vala:83
+msgid "Desktop Preferences"
+msgstr ""
+
+#: src/ui/bubblemenu.vala:86
+msgid "Move to Trash"
+msgstr ""
+
+#: src/ui/bubblemenu.vala:87
+msgid "Copy Path"
+msgstr ""
+
+#: src/ui/bubblemenu.vala:88
+msgid "Make Alias"
+msgstr ""
+
+#: src/ui/bubblemenu.vala:89
+msgid "Get Info"
+msgstr ""
+
+#: src/ui/bubblemenu.vala:92
+msgid "Empty Trash"
+msgstr ""
+
+#: src/ui/icon.vala:176
+msgid "Trash"
+msgstr ""
+
+#: src/utils.vala:323
+msgid "untitled folder"
+msgstr ""
+
+#: data/ui/application.glade:51
+msgid "_Preferences"
+msgstr ""
+
+#: data/ui/application.glade:76
+msgid "_About Komorebi"
+msgstr ""
+
+#: data/ui/application.glade:90
+msgid "_Quit"
+msgstr ""
+
+#: data/ui/application.glade:119
+msgid "Komorebi"
+msgstr ""
+
+#: data/ui/application.glade:120
+msgid "Wallpaper Manager"
+msgstr ""
+
+#: data/ui/application.glade:181
+msgid "Search"
+msgstr ""
+
+#: data/ui/application.glade:208
+msgid "_File"
+msgstr ""
+
+#: data/ui/application.glade:273
+msgid "_Edit"
+msgstr ""
+
+#: data/ui/application.glade:323
+msgid "_View"
+msgstr ""
+
+#: data/ui/application.glade:331
+msgid "_Help"
+msgstr ""
+
+#: data/ui/getinfo.glade:155
+msgid ""
+"Created:\n"
+"%s"
+msgstr ""
+
+#: data/ui/getinfo.glade:187
+msgid ""
+"Modified:\n"
+"%s"
+msgstr ""
+
+#: data/ui/getinfo.glade:219
+msgid ""
+"Last Accessed:\n"
+"%s"
+msgstr ""
+
+#: data/ui/getinfo.glade:258
+msgid ""
+"Where:\n"
+"%s"
+msgstr ""
+
+#: data/ui/getinfo.glade:303
+msgid ""
+"Owner:\n"
+"%s"
+msgstr ""
+
+#: data/ui/getinfo.glade:327
+msgid "Info"
+msgstr ""
+
+#: data/ui/message.glade:7
+msgid "Message"
+msgstr ""
+
+#: data/ui/pathmanager.glade:92
+msgid "Add a path"
+msgstr ""
+
+#: data/ui/pathmanager.glade:104
+msgid "Remove a path"
+msgstr ""
+
+#: data/ui/pathmanager.glade:141
+msgid "Edits the path"
+msgstr ""
+
+#: data/ui/pathmanager.glade:157
+msgid "Removes the path"
+msgstr ""
+
+#: data/ui/pathmanager.glade:173
+msgid "Opens the directory path"
+msgstr ""
+
+#: data/ui/pathmanager.glade:189
+msgid ""
+"Displays directory information such as size, wallpaper types and quantity"
+msgstr ""
+
+#: data/ui/pathmanager.glade:225
+msgid "Closes this dialog"
+msgstr ""
+
+#: data/ui/pathmanager.glade:249
+msgid "Path Manager"
+msgstr ""
+
+#: data/ui/pathmanager.glade:250
+msgid "Manage your paths and directories for Komorebi"
+msgstr ""
+
+#: data/ui/pathmanager.glade:285
+msgid "Select folders"
+msgstr ""
+
+#: data/ui/preferences.glade:7
+msgid "Preferences"
+msgstr ""
+
+#: data/ui/preferences.glade:77
+msgid "_Use a 24-hour clock"
+msgstr ""
+
+#: data/ui/preferences.glade:81
+msgid "Uses a 24-hour clock as opposed to a 12-hour clock"
+msgstr ""
+
+#: data/ui/preferences.glade:93
+msgid "_Show desktop icons"
+msgstr ""
+
+#: data/ui/preferences.glade:97
+msgid "Enables icons to be displayed on the desktop"
+msgstr ""
+
+#: data/ui/preferences.glade:109
+msgid "Enable _video wallpapers (requires restarting Komorebi)"
+msgstr ""
+
+#: data/ui/preferences.glade:113
+msgid ""
+"Enables wallpaper videos loading GStreamer the next time the application is "
+"started"
+msgstr ""
+
+#: data/ui/preferences.glade:132
+msgid "General"
+msgstr ""
+
+#: data/ui/preferences.glade:166
+msgid "_Pause video playback when focus is lost"
+msgstr ""
+
+#: data/ui/preferences.glade:170
+msgid "When the desktop is not active, the video as wallpaper will be paused"
+msgstr ""
+
+#: data/ui/preferences.glade:190
+msgid "Video wallpaper settings"
+msgstr ""
+
+#: data/ui/preferences.glade:222
+msgid "_Add Trash icon"
+msgstr ""
+
+#: data/ui/preferences.glade:226 data/ui/preferences.glade:282
+msgid "Adds the trash icon to the desktop."
+msgstr ""
+
+#: data/ui/preferences.glade:268
+msgid "Icon size:"
+msgstr ""
+
+#: data/ui/preferences.glade:278
+msgid "_Open icon with double click"
+msgstr ""
+
+#: data/ui/preferences.glade:314
+msgid "Icons configuration"
+msgstr ""
