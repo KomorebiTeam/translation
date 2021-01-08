@@ -1,13 +1,13 @@
 # Italian translation for komorebi
-# Copyright (C) 2020 Komorebi Team
+# Copyright (C) 2021 Komorebi Team
 # This file is distributed under the same license as the komorebi package.
-# Amaro Martínez <xoas@airmail.cc>, 2020.
-#
+# Amaro Martínez <xoas@airmail.cc>, 2021.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: komorebi\n"
 "Report-Msgid-Bugs-To: https://github.com/KomorebiTeam/komorebi/issues\n"
-"POT-Creation-Date: 2020-12-04 00:33-0500\n"
+"POT-Creation-Date: 2021-01-01 10:06-0500\n"
 "PO-Revision-Date: 2020-09-03 06:17-0500\n"
 "Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
 "Language-Team: \n"
@@ -54,6 +54,10 @@ msgstr ""
 msgid "New Logo"
 msgstr ""
 
+#: data/desktop/komorebi.appdata.xml.in.in:40
+msgid "@PROJECT_DEV@"
+msgstr ""
+
 #: data/desktop/komorebi.desktop.in.in:5
 msgid "Wallpaper and Desktop Manager"
 msgstr ""
@@ -65,5 +69,5 @@ msgstr ""
 
 #. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: data/desktop/komorebi.desktop.in.in:11
-msgid "@PROJECT_NAME@"
+msgid "@PROJECT_BIN@"
 msgstr ""

@@ -1,13 +1,13 @@
 # Italian translation for komorebi
-# Copyright (C) 2020 Komorebi Team
+# Copyright (C) 2021 Komorebi Team
 # This file is distributed under the same license as the komorebi package.
-# Amaro Martínez <xoas@airmail.cc>, 2020.
-#
+# Amaro Martínez <xoas@airmail.cc>, 2021.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: komorebi\n"
 "Report-Msgid-Bugs-To: https://github.com/KomorebiTeam/komorebi/issues\n"
-"POT-Creation-Date: 2020-12-11 00:20-0500\n"
+"POT-Creation-Date: 2021-01-01 13:01-0500\n"
 "PO-Revision-Date: 2020-11-05 05:01-0500\n"
 "Last-Translator: Amaro Martínez <xoas@airmail.cc>\n"
 "Language-Team: \n"
@@ -18,112 +18,118 @@ msgstr ""
 "X-Generator: Poedit 2.4.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: src/ui/aboutdialog.vala:44
+#: src/application.vala:45
+msgid "Display version information"
+msgstr ""
+
+#: src/application.vala:46
+msgid "Launch only in the first monitor"
+msgstr ""
+
+#: src/application.vala:47
+msgid "Show the about dialog"
+msgstr ""
+
+#: src/application.vala:48
+msgid "Show the settings dialog"
+msgstr ""
+
+#: src/application.vala:49
+msgid "Relaunch the application"
+msgstr ""
+
+#: src/application.vala:50
+msgid "Exit the desktop"
+msgstr ""
+
+#: src/ui/aboutdialog.vala:42
 msgid "A different desktop"
 msgstr ""
 
-#: src/ui/aboutdialog.vala:46
+#: src/ui/aboutdialog.vala:44
 msgid "Visit Komorebi on GitHub"
 msgstr "Visita Komorebi su GitHub"
 
-#: src/ui/aboutdialog.vala:51
+#: src/ui/aboutdialog.vala:52
 msgid "translator-credits"
-msgstr "Amaro Martínez <xoas@airmail.cc>, 2020"
+msgstr "Amaro Martínez <xoas@airmail.cc>, 2021"
 
-#: src/ui/backgroundwindow.vala:94
+#: src/ui/backgroundwindow.vala:93
 msgid "Desktop"
 msgstr ""
 
-#: src/ui/bubblemenu.vala:79
-msgid "New Folder"
-msgstr "Nuova cartella"
+#: src/ui/getinfowindow.vala:55 data/ui/getinfo.glade:8
+msgid "Info"
+msgstr "Info"
 
-#: src/ui/bubblemenu.vala:80
-msgid "Refresh Desktop Background"
-msgstr ""
-
-#: src/ui/bubblemenu.vala:81
-msgid "Paste"
-msgstr "Incolla"
-
-#: src/ui/bubblemenu.vala:82
-msgid "Change Desktop Background..."
-msgstr ""
-
-#: src/ui/bubblemenu.vala:83
-msgid "Desktop Preferences"
-msgstr ""
-
-#: src/ui/bubblemenu.vala:86
-msgid "Move to Trash"
-msgstr "Sposta nel Cestino"
-
-#: src/ui/bubblemenu.vala:87
-msgid "Copy Path"
-msgstr ""
-
-#: src/ui/bubblemenu.vala:88
-msgid "Make Alias"
-msgstr "Crea alias"
-
-#: src/ui/bubblemenu.vala:89
-msgid "Get Info"
-msgstr "Ottieni informazioni"
-
-#: src/ui/bubblemenu.vala:92
-msgid "Empty Trash"
-msgstr "Svuota il Cestino"
-
-#: src/ui/icon.vala:176
+#: src/ui/icon.vala:184
 msgid "Trash"
 msgstr "Cestino"
 
-#: src/utils.vala:323
+#: src/ui/menumanager.vala:64
+#, fuzzy
+msgid "_New Folder"
+msgstr "Nuova cartella"
+
+#: src/ui/menumanager.vala:65
+msgid "_Refresh Wallpaper"
+msgstr ""
+
+#: src/ui/menumanager.vala:66
+#, fuzzy
+msgid "_Paste"
+msgstr "Incolla"
+
+#: src/ui/menumanager.vala:67
+msgid "Change _Wallpaper…"
+msgstr ""
+
+#: src/ui/menumanager.vala:68
+#, fuzzy
+msgid "Desktop Pre_ferences"
+msgstr "Preferenze"
+
+#: src/ui/menumanager.vala:71
+#, fuzzy
+msgid "_Move to Trash"
+msgstr "Sposta nel Cestino"
+
+#: src/ui/menumanager.vala:72
+msgid "_Copy Path"
+msgstr ""
+
+#: src/ui/menumanager.vala:73
+#, fuzzy
+msgid "Make _Alias"
+msgstr "Crea alias"
+
+#: src/ui/menumanager.vala:74
+#, fuzzy
+msgid "Get _Info"
+msgstr "Ottieni informazioni"
+
+#: src/ui/menumanager.vala:77
+#, fuzzy
+msgid "_Empty Trash"
+msgstr "Svuota il Cestino"
+
+#: src/utils.vala:328
 msgid "untitled folder"
 msgstr "cartella senza titolo"
 
-#: data/ui/application.glade:51
+#: data/ui/application.glade:284
 msgid "_Preferences"
 msgstr "P_referenze"
 
-#: data/ui/application.glade:76
+#: data/ui/application.glade:309
 msgid "_About Komorebi"
 msgstr "I_nformazioni su Komorebi"
 
-#: data/ui/application.glade:90
+#: data/ui/application.glade:323
 msgid "_Quit"
 msgstr ""
 
-#: data/ui/application.glade:119
-msgid "Komorebi"
-msgstr "Komorebi"
-
-#: data/ui/application.glade:120
-#, fuzzy
-msgid "Wallpaper Manager"
-msgstr "Sfondi"
-
-#: data/ui/application.glade:181
-msgid "Search"
-msgstr "Cerca"
-
-#: data/ui/application.glade:208
-msgid "_File"
-msgstr ""
-
-#: data/ui/application.glade:273
-msgid "_Edit"
-msgstr ""
-
-#: data/ui/application.glade:323
-msgid "_View"
-msgstr ""
-
-#: data/ui/application.glade:331
-msgid "_Help"
-msgstr ""
-
-#: data/ui/getinfo.glade:155
+#: data/ui/getinfo.glade:153
 msgid ""
 "Created:\n"
 "%s"
@@ -131,7 +137,7 @@ msgstr ""
 "Creato:\n"
 "%s"
 
-#: data/ui/getinfo.glade:187
+#: data/ui/getinfo.glade:185
 msgid ""
 "Modified:\n"
 "%s"
@@ -139,13 +145,13 @@ msgstr ""
 "Modificato:\n"
 "%s"
 
-#: data/ui/getinfo.glade:219
+#: data/ui/getinfo.glade:217
 msgid ""
 "Last Accessed:\n"
 "%s"
 msgstr ""
 
-#: data/ui/getinfo.glade:258
+#: data/ui/getinfo.glade:256
 msgid ""
 "Where:\n"
 "%s"
@@ -153,7 +159,7 @@ msgstr ""
 "Situato in:\n"
 "%s"
 
-#: data/ui/getinfo.glade:303
+#: data/ui/getinfo.glade:300
 msgid ""
 "Owner:\n"
 "%s"
@@ -161,52 +167,48 @@ msgstr ""
 "Proprietario:\n"
 "%s"
 
-#: data/ui/getinfo.glade:327
-msgid "Info"
-msgstr "Info"
-
 #: data/ui/message.glade:7
 msgid "Message"
 msgstr ""
 
-#: data/ui/pathmanager.glade:92
+#: data/ui/pathmanager.glade:91
 msgid "Add a path"
 msgstr ""
 
-#: data/ui/pathmanager.glade:104
+#: data/ui/pathmanager.glade:103
 msgid "Remove a path"
 msgstr ""
 
-#: data/ui/pathmanager.glade:141
+#: data/ui/pathmanager.glade:140
 msgid "Edits the path"
 msgstr ""
 
-#: data/ui/pathmanager.glade:157
+#: data/ui/pathmanager.glade:156
 msgid "Removes the path"
 msgstr ""
 
-#: data/ui/pathmanager.glade:173
+#: data/ui/pathmanager.glade:172
 msgid "Opens the directory path"
 msgstr ""
 
-#: data/ui/pathmanager.glade:189
+#: data/ui/pathmanager.glade:188
 msgid ""
 "Displays directory information such as size, wallpaper types and quantity"
 msgstr ""
 
-#: data/ui/pathmanager.glade:225
+#: data/ui/pathmanager.glade:224
 msgid "Closes this dialog"
 msgstr ""
 
-#: data/ui/pathmanager.glade:249
+#: data/ui/pathmanager.glade:248
 msgid "Path Manager"
 msgstr ""
 
-#: data/ui/pathmanager.glade:250
+#: data/ui/pathmanager.glade:249
 msgid "Manage your paths and directories for Komorebi"
 msgstr ""
 
-#: data/ui/pathmanager.glade:285
+#: data/ui/pathmanager.glade:284
 #, fuzzy
 msgid "Select folders"
 msgstr "cartella senza titolo"
@@ -215,42 +217,42 @@ msgstr "cartella senza titolo"
 msgid "Preferences"
 msgstr "Preferenze"
 
-#: data/ui/preferences.glade:77
+#: data/ui/preferences.glade:73
 msgid "_Use a 24-hour clock"
 msgstr "_Usa orologio di 24 ore"
 
-#: data/ui/preferences.glade:81
+#: data/ui/preferences.glade:77
 msgid "Uses a 24-hour clock as opposed to a 12-hour clock"
 msgstr ""
 
-#: data/ui/preferences.glade:93
+#: data/ui/preferences.glade:90
 #, fuzzy
 msgid "_Show desktop icons"
 msgstr "Mostra icone del desktop"
 
-#: data/ui/preferences.glade:97
+#: data/ui/preferences.glade:94
 msgid "Enables icons to be displayed on the desktop"
 msgstr ""
 
-#: data/ui/preferences.glade:109
+#: data/ui/preferences.glade:107
 msgid "Enable _video wallpapers (requires restarting Komorebi)"
 msgstr "Abilita sfondi _video (richiede il riavvio di Komorebi)"
 
-#: data/ui/preferences.glade:113
+#: data/ui/preferences.glade:111
 msgid ""
 "Enables wallpaper videos loading GStreamer the next time the application is "
 "started"
 msgstr ""
 
-#: data/ui/preferences.glade:132
+#: data/ui/preferences.glade:131
 msgid "General"
 msgstr ""
 
-#: data/ui/preferences.glade:166
+#: data/ui/preferences.glade:165
 msgid "_Pause video playback when focus is lost"
 msgstr ""
 
-#: data/ui/preferences.glade:170
+#: data/ui/preferences.glade:169
 msgid "When the desktop is not active, the video as wallpaper will be paused"
 msgstr ""
 
@@ -262,18 +264,22 @@ msgstr ""
 msgid "_Add Trash icon"
 msgstr ""
 
-#: data/ui/preferences.glade:226 data/ui/preferences.glade:282
+#: data/ui/preferences.glade:226
 msgid "Adds the trash icon to the desktop."
 msgstr ""
 
-#: data/ui/preferences.glade:268
+#: data/ui/preferences.glade:269
 msgid "Icon size:"
 msgstr "Dimensioni icona:"
 
-#: data/ui/preferences.glade:278
-msgid "_Open icon with double click"
+#: data/ui/preferences.glade:279
+msgid "_Open items with double click"
 msgstr ""
 
-#: data/ui/preferences.glade:314
+#: data/ui/preferences.glade:283
+msgid "Opens a desktop item with a double click instead of a single click."
+msgstr ""
+
+#: data/ui/preferences.glade:304
 msgid "Icons configuration"
 msgstr ""
